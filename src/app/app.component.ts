@@ -59,7 +59,6 @@ export class MyApp {
       });
 
       this.network.onConnect().subscribe(() => {
-
         // We just got a connection but we need to wait briefly
         // before we determine the connection type. Might need to wait.
         // prior to doing any api requests as well.
